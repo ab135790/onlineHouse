@@ -1,0 +1,18 @@
+	.swiper-slide {
+			text-align: right;
+			font-size: 18px;
+			background:#fff;
+    	}
+		.swiper-slide img{width:100%}
+		.sub-d-center{
+			    float: left;
+			    width: 80px;
+			    height: 26px;
+			    line-height: 26px;
+			    background: #ef5232;
+			    border-radius: 20px;
+			    text-align: center;
+			    color: #ffffff;
+			    margin-left: 1rem;
+			    margin-top: 8px;
+		}
