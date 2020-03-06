@@ -203,4 +203,4 @@ function closeYhgs(){
 			$(".b-index-w").css("padding-top","120px");
 			$(".dfix").css("height","120px");
 		}
-	}			  
+	}

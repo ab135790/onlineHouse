@@ -158,7 +158,7 @@
 <script id="showDjsTime2" type="text/html">
 	{{if IsShowDjsTime=='0'}}
 	<div class="time-djs" id="subtimer" style="display:none">
-		<p id="ggts">本轮活动离结束时间剩余</p>
+		<p id="ggts">活动倒计时</p>
 		<div class="liktimer">
 			<span class="RemainD Remain">00</span><span class="liksapn">天</span><span class="RemainH Remain">00</span><span class="liksapn">时</span>
 			<span class="RemainM Remain">00</span><span class="liksapn">分</span><span class="RemainS Remain">00</span><span class="liksapn">秒</span>
@@ -166,7 +166,7 @@
 	</div>
 	{{else}}
 	<div class="time-djs" id="subtimer">
-		<p id="ggts">本轮活动离结束时间剩余</p>
+		<p id="ggts">活动倒计时</p>
 		<div class="liktimer">
 			<span class="RemainD Remain">00</span><span class="liksapn">天</span><span class="RemainH Remain">00</span><span class="liksapn">时</span>
 			<span class="RemainM Remain">00</span><span class="liksapn">分</span><span class="RemainS Remain">00</span><span class="liksapn">秒</span>

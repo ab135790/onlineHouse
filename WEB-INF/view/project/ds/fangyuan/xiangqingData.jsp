@@ -180,11 +180,11 @@ function showImgModel(model){
 		 }
 	}
 </script>
-		<div class="b-index-w" style="padding-top:48px;padding-bottom:48px;">
+		<div class="b-index-w" style="padding-bottom:48px;">
 			<nav class="menunav">
 				<div class="menunav-w">
 					<div class="nav-list navon" >
-					  <a href="javascript:void(0);" onclick="lookFangYuan()" ><p class="f-n1"></p><span class="f-n-name">车位列表</span></a>
+					  <a href="javascript:void(0);" onclick="lookFangYuan()" ><p class="f-n1"></p><span class="f-n-name"><房源></房源>列表</span></a>
 					</div>
 					<div class="nav-list" >
 					  <a href="javascript:void(0);"  onclick="lookShouCang()" ><p class="f-n3"></p><span class="f-n-name">我的收藏</span></a>

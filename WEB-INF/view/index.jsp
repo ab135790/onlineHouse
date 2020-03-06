@@ -39,8 +39,8 @@
 	     margin-left:2%;
 	  } */
 	  .layui-rgxz{
-	    width:100%;
-	    left:0;
+	    /*width:100%;*/
+	    /*left:0;*/
 	  }
 </style>
 <script type="text/javascript">
@@ -77,7 +77,6 @@
 .weui-cell:before {
 	content: " ";
 	position: absolute;
-	left: 0;
 	top: 0;
 	right: 0;
 	height: 1px;
@@ -264,6 +263,7 @@
 				}); */
                 var index;
                 $(".J-ac-btn").click(function() {
+
                      index =layer.open({
                                   title: false,
                                   type: 1,
@@ -272,7 +272,7 @@
                                   anim: 2,
                                   shadeClose: true, //开启遮罩关闭
                                   offset: 'b',
-                                  area: ['100%', '50%'],
+                                  area: ['80%', '50%'],
                                   content: $("#J-bottom").html()
                                 });
                 })

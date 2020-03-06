@@ -54,15 +54,14 @@
     vertical-align: middle;
     background:#2a7dd2;}
 .xm-peplet p{height:38px;line-height:38px;font-size:1.4rem;}
-.xm-peplet p.xm-p1{background:url(../images/gly-dec.png) no-repeat .68rem center;background-size:24px 24px;padding-left:34px;border-bottom:1px solid #f3e7d1;}
+.xm-peplet p.xm-p1{background:url(../images/gly-dec.png) no-repeat .68rem center;background-size:24px 24px;padding-left:34px;}
 .xm-peplet p.xm-p2{background:url(../images/sfz-dec.png) no-repeat .68rem center;background-size:26px 26px;padding-left:34px;}
 .xm-pmt{margin-top:.5rem;}
 .xm-pmt h3{height:44px;line-height:44px;font-size:1.5rem;background:url(../images/pmt-dec.png?v=1.0) no-repeat .68rem center #ffffff;background-size:24px 24px;padding-left:34px;font-weight:bold;}
 .pmt-img img{width:100%;}
-.i-dc-w{padding:0px 1rem;}
+.i-dc-w{padding:0px 1rem; height: 100%;}
 .i-dc-w h3{height:46px;line-height:46px;border-bottom:1px solid #e9e8e9;text-align:center;font-size:1.6rem;font-weight:bold;background:#ffffff;/*position:fixed;*/top:31%;right:0px;left:0px;z-index:1002;}
 .i-dc-w .h33{height:46px;line-height:46px;border-bottom:1px solid #e9e8e9;text-align:center;font-size:1.6rem;font-weight:bold;background:#ffffff;position:relative;z-index:1002;}
-.i-dc-w  .dc-w-cont{/*padding-bottom:10px;padding-top:10px;*/}
 .i-dc-w  .dc-w-cont p{line-height:25px;margin-bottom:10px;}
 .bottom_buttons{position:fixed;height:46px;line-height:46px;width:100%;left:0;bottom:0;right:0;}
 .bottom_buttons .buttons1{float:left;height:46px;line-height:46px;background:#2a7dd2;display:block;width:50%;color:#ffffff;font-size:1.6rem;font-weight:bold;text-align:center}
@@ -362,7 +361,7 @@
     align-items: center;
 }
 .txt {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #003079;
 }
 .mb1r {
@@ -401,4 +400,13 @@
 .active {
     display: flex;
 }
+
 /* loginData.jsp end */
+
+/* indexData start*/
+.i-dc-w .rgxzText {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+/* indexData end*/

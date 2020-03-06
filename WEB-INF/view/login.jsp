@@ -141,7 +141,7 @@
 				h = Math.floor(leftTime/1000/60/60%24);
 				m = Math.floor(leftTime/1000/60%60);
 				s = Math.floor(leftTime/1000%60);
-				$("#ggts").html("本轮活动开始时间还剩余!");
+				$("#ggts").html("活动倒计时!");
 				allowLoad = true;
 			}else{
 				leftTime = end + ShoppingTime*1000 - now;
@@ -150,7 +150,7 @@
 					h = Math.floor(leftTime/1000/60/60%24);
 					m = Math.floor(leftTime/1000/60%60);
 					s = Math.floor(leftTime/1000%60);
-					$("#ggts").html("本轮活动结束时间还剩余!");
+					$("#ggts").html("活动倒计时!");
 				}else{
 					$("#ggts").html("本轮活动已结束!");
 					allowLoad = false;//不允许登录
@@ -180,7 +180,6 @@
 		.weui-cell:before {
 			content: " ";
 			position: absolute;
-			left: 0;
 			top: 0;
 			right: 0;
 			height: 1px;

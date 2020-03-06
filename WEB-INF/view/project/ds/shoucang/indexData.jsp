@@ -15,11 +15,11 @@ $(function(){
 </script>
 <style  type="text/css">body{background:#ffffff;}</style>
 		<div class="b-index-w">
-			<div class="dfix" style="padding-top:48px;height:auto;">
+			<div class="dfix">
 				<nav class="menunav">
 					<div class="menunav-w">
 						<div class="nav-list" id="lookFangYuan">
-						  <a href="javascript:void(0);" onclick="lookFangYuan()" ><p class="f-n1"></p><span class="f-n-name">车位列表</span></a>
+						  <a href="javascript:void(0);" onclick="lookFangYuan()" ><p class="f-n1"></p><span class="f-n-name">房源列表</span></a>
 						</div>
 						<div class="nav-list  navon" id="lookShouCang">
 						  <a href="javascript:void(0);"  onclick="lookShouCang()" ><p class="f-n3"></p><span class="f-n-name">我的收藏</span></a>
@@ -27,7 +27,6 @@ $(function(){
 						<div class="nav-list" id="lookDingDan">
 						  <a href="javascript:void(0);"  onclick="lookDingDan()" ><p class="f-n2"></p><span class="f-n-name">我的订单</span></a>
 						</div>
-						
 					</div>
 				</nav>							
 			</div>

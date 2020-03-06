@@ -54,12 +54,12 @@
     vertical-align: middle;
     background:#2a7dd2;}
 .xm-peplet p{height:38px;line-height:38px;font-size:1.4rem;}
-.xm-peplet p.xm-p1{background:url(../images/gly-dec.png) no-repeat .68rem center;background-size:24px 24px;padding-left:34px;border-bottom:1px solid #f3e7d1;}
+.xm-peplet p.xm-p1{background:url(../images/gly-dec.png) no-repeat .68rem center;background-size:24px 24px;padding-left:34px;}
 .xm-peplet p.xm-p2{background:url(../images/sfz-dec.png) no-repeat .68rem center;background-size:26px 26px;padding-left:34px;}
 .xm-pmt{margin-top:.5rem;}
 .xm-pmt h3{height:44px;line-height:44px;font-size:1.5rem;background:url(../images/pmt-dec.png?v=1.0) no-repeat .68rem center #ffffff;background-size:24px 24px;padding-left:34px;font-weight:bold;}
 .pmt-img img{width:100%;}
-.i-dc-w{padding:0px 1rem;}
+.i-dc-w{padding:0px 1rem; height: 100%;}
 .i-dc-w h3{height:46px;line-height:46px;border-bottom:1px solid #e9e8e9;text-align:center;font-size:1.6rem;font-weight:bold;background:#ffffff;/*position:fixed;*/top:31%;right:0px;left:0px;z-index:1002;}
 .i-dc-w .h33{height:46px;line-height:46px;border-bottom:1px solid #e9e8e9;text-align:center;font-size:1.6rem;font-weight:bold;background:#ffffff;position:relative;z-index:1002;}
 .i-dc-w  .dc-w-cont{/*padding-bottom:10px;padding-top:10px;*/}
@@ -68,13 +68,13 @@
 .bottom_buttons .buttons1{float:left;height:46px;line-height:46px;background:#2a7dd2;display:block;width:50%;color:#ffffff;font-size:1.6rem;font-weight:bold;text-align:center}
 .bottom_buttons .buttons2{float:left;height:46px;line-height:46px;background:#999999;display:block;width:50%;font-size:1.6rem;font-weight:bold; text-align:center;color:#ffffff;}
 .menunav{
-	position:fixed;
-	width:100%;
-	top:0;
-	left:0;
-	height:48px;
-	background:#f5f5f5;
-	z-index:999;
+	/*position:fixed;*/
+	/*width:100%;*/
+	/*top:0;*/
+	/*left:0;*/
+	/*height:48px;*/
+	background:#fff;
+	/*z-index:999;*/
 }
 .menunav .menunav-w{
 	box-sizing:border-box;
@@ -211,8 +211,8 @@
 .dd-a-w .dd-w-list .d-w-list-left{margin-left:1rem;}
 .yxg{width:90px;height:90px;position:absolute;right:20px;bottom:40%;}
 .yxg img{width:100%}
-.ts-w{height:32px;line-height:32px; text-align:center;font-size:1.5rem;}
-.ddd-w{float:none;border-bottom:1px solid #f0f0f0;}
+.ts-w{height:32px;line-height:32px; text-align:center;font-size:1.5rem;background:#fff;}
+.ddd-w{float:none;border-bottom:1px solid #f0f0f0;position: relative;}
 .ts-w img{width:6%;position:relative;top:-1px;}
 .ts-w span{padding-right:7px;color:#444444;}
 .ts-w span strong{color:#ff0000;font-size:1.5rem;padding:0px 2px;}
@@ -261,8 +261,9 @@
 .d-w-c-list a{display:block;width:95%;height:40px;line-height:40px;border-radius:4px;background:#ffc;margin-top:4px;color:#000000;font-size:2.2rem;text-align:center;box-shadow: 2px 2px 2px #888;}
 .d-w-c-list .lda1{background:#479df4;color:#ffffff;box-shadow: 2px 2px 2px #888;}
 .d-w-c-list .lda2{background:#ee0000;color:#ffffff;box-shadow: 2px 2px 2px #888;}
-.dc-btn-widtht{width:90%;margin:0px auto;margin-top:40px;}
-.dc-btnn a{display:block;height:46px;line-height:46px;border-radius:4px;background:#fa4e2a; text-align:center;color:#ffffff;font-size:1.6rem;margin-top:15px;}
+.dc-btn-widtht{width:100%; margin:0 auto; display: flex; justify-content: space-around; align-items: center;}
+.dc-btnn .btn{border: none; display:block;height:46px; width: 40%; line-height:46px;border-radius:4px;background:#fa4e2a; text-align:center;color:#ffffff;font-size:1.6rem;margin-top:15px;}
+.dc-btnn .btn:first-child{background:#427bcb;}
 .sub-d-right{/*background:#ffffff;*/}
 .sub-d-center {
     float: left;
@@ -285,7 +286,6 @@
 .c-r-ttc{display:inline-block;background:url(../images/closed.png?v=1.0) no-repeat center top;width:60px;background-size:26px 26px;text-align:center;padding-top:24px;color:#999999;font-size:1.5rem;}
 .dddinfo{color:#0d7002;font-size:14px; text-align:center;margin:0px auto;line-height:20px;padding-top:14px;}
 .dddinfo img{display:block;width:50px;height:auto;margin:0px auto;margin-bottom:4px;}
-.dfix{height:80px;overflow:hidden;}
 .yh-wrap{width:320px;margin:0px auto;text-align:center;position:relative;margin-top:40px;}
 .yh-nam{ text-align:center;font-size:11rem;color:#fbfe00;position:absolute;width:100%;top:70px;font-weight:bold;}
 .swiper-containerq{width:200%}
@@ -336,3 +336,153 @@
 .picradius {
     border-radius: 10px;
 }
+/* indexData start*/
+.userInfo {
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #f3e7d1;
+}
+.userInfo .Codes{
+    background:url(../images/Codes.png) no-repeat .68rem center;
+    background-size:24px 24px;
+    padding-left:34px;
+}
+.userInfo .txt {
+    font-size: 2rem;
+}
+.userInfo .group {
+    color: #777;
+}
+.ml2r {
+    margin-left: 2rem;
+}
+.mr_5lr {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.mb_5r {
+    margin-bottom: .5rem;
+}
+.i-dc-w .rgxzText {
+    height: 100%;
+    overflow-y: scroll;
+}
+/* indexData end*/
+
+/* fangyuan\indexData.jsp start */
+.b-index-w {
+    position: relative;
+}
+.dfix{
+    overflow:hidden;
+    width:100%;
+    min-height:48px;
+}
+/* fangyuan\indexData.jsp end */
+
+/* public\userInfoTitle.jsp start*/
+
+#userInfoTitle {
+    background: #fff;
+}
+.userInfoTitle {
+    position: relative;
+    text-align: left;
+    margin: 0 1.5rem;
+}
+.userInfoTitle:after {
+    content: '';
+    position: absolute;
+    left: 47%;
+    top: 10%;
+    width: .1rem;
+    height: 80%;
+    background: rgba(3, 3, 3, .1);
+}
+.userInfoTitle_tr {
+
+}
+.userInfoTitle_td {
+    width: 5%;
+    padding: .5rem 0;
+}
+.userInfoTitle_cor {
+    color: #494949;
+    text-align: center;
+}
+/* public\userInfoTitle.jsp end*/
+
+/* index.html start */
+.body {
+    background: #f5f5f5;
+}
+/* index.html end */
+
+/* dingdan\indexData.jsp start */
+#qrcodeTable {
+    position: absolute;
+    right: 3rem;
+    top: 50%;
+    margin-top: -2.8rem;
+}
+.signatureBox {
+    background: #fff;
+    width: 30rem;
+    height: 36.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: .6rem;
+}
+.signatureBox_txt {
+    width: 24rem;
+    height: 29.2rem;
+    background: #fff;
+    border-radius: .6rem;
+    overflow: hidden;
+    border: .1rem solid #bebebe;
+}
+.signatureBox_title {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#toSign {
+    width: 300px;
+    height: 365px;
+    /* background: #ccc; */
+}
+.mask {
+    position: fixed;
+    background: rgba(3, 3, 3, .2);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.active {
+    display: flex;
+}
+.signatureBox_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signatureBox .btn {
+    border: none;
+    color: #fff;
+    background: #fa4e2a;
+    border-radius: .6rem;
+    height: 3.5rem;
+    width: 7rem;
+    margin: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* dingdan\indexData.jsp end */
+

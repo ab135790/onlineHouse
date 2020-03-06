@@ -139,51 +139,51 @@
 			 }
 		}
 	</script>	
-		<div class="b-index-w" style="padding-top:162px;">
-			<div id="commonBody">
-				<div class="dfix" style="position:fixed;width:100%;height:162px;top:0px;left:0;right:0;z-index:1002;">
-					<nav class="menunav" style="position:relative">
-						<div class="menunav-w">
-							<div class="nav-list navon" id="lookFangYuan">
-							  <a href="javascript:void(0);" onclick="lookFangYuan(0,0)"><p class="f-n1"></p><span class="f-n-name">车位列表</span></a>
-							</div>
-							<div class="nav-list" id="lookShouCang">
-							  <a href="javascript:void(0);"  onclick="lookShouCang()"><p class="f-n3"></p><span class="f-n-name">我的收藏</span></a>
-							</div>
-							<div class="nav-list" id="lookDingDan">
-							  <a href="javascript:void(0);"  onclick="lookDingDan()"><p class="f-n2"></p><span class="f-n-name">我的订单</span></a>
-							</div>							
+		<div class="b-index-w">
+			<div class="dfix">
+				<nav class="menunav" style="position:relative">
+					<div class="menunav-w">
+						<div class="nav-list navon" id="lookFangYuan">
+							<a href="javascript:void(0);" onclick="lookFangYuan(0,0)"><p class="f-n1"></p><span class="f-n-name">房源列表</span></a>
 						</div>
-					</nav>
-					<div class="sub-dd clearfix" style="height:32px;overflow:hidden;vertical-align:middle;">
-						<div class="sub-d-right" style="float:left;background:none;" id="showDjsTime">
-							<!-- <div class="subtimer" id="subtimer" style="line-height:32px;padding-top:0px;padding-bottom:0px;">
-								  <span class="RemainH Remain">00</span><span class="liksapn">时</span><span class="RemainM Remain">00</span><span class="liksapn">分</span><span class="RemainS Remain">00</span><span class="liksapn" id="ggts2">秒后活动结束!</span>
-							</div>		 -->				
+						<div class="nav-list" id="lookShouCang">
+							<a href="javascript:void(0);"  onclick="lookShouCang()"><p class="f-n3"></p><span class="f-n-name">我的收藏</span></a>
 						</div>
-						<div class="sub-d-left IsTest"  style="border-radius: 3px; margin-top: 5px; background-color: rgb(33, 150, 243);"></div>
-						<div class="fy-sm" style="float:right;margin-right:10px;">
-							<span class="fysp spcor1"></span>
-							<span class="spansep">已售</span>
-							<span class="fysp spcor2"></span>
-							<span class="spansep">未售</span>					
+						<div class="nav-list" id="lookDingDan">
+							<a href="javascript:void(0);"  onclick="lookDingDan()"><p class="f-n2"></p><span class="f-n-name">我的订单</span></a>
 						</div>
 					</div>
-					<div class="f-l-w">
-						<div class="yy-w" id="loudong2">
-							<div class="scroller">
-								<ul class="clearfix" id="dsLouDong">
-									<!-- 填充模版 -->
-								</ul>
-							</div>
-						</div>
+				</nav>
+				<div class="sub-dd clearfix" style="height:32px;overflow:hidden;vertical-align:middle;">
+					<div class="sub-d-right" style="float:left;background:none;" id="showDjsTime">
+						<!-- <div class="subtimer" id="subtimer" style="line-height:32px;padding-top:0px;padding-bottom:0px;">
+                              <span class="RemainH Remain">00</span><span class="liksapn">时</span><span class="RemainM Remain">00</span><span class="liksapn">分</span><span class="RemainS Remain">00</span><span class="liksapn" id="ggts2">秒后活动结束!</span>
+                        </div>		 -->
 					</div>
-					<div   id="IsShowDY" >
-					      
-							<!-- 填充模版 -->
-			
-					</div>					
+					<div class="sub-d-left IsTest"  style="border-radius: 3px; margin-top: 5px; background-color: rgb(33, 150, 243);"></div>
+					<div class="fy-sm" style="float:right;margin-right:10px;">
+						<span class="fysp spcor1"></span>
+						<span class="spansep">已售</span>
+						<span class="fysp spcor2"></span>
+						<span class="spansep">未售</span>
+					</div>
 				</div>
+				<div class="f-l-w">
+					<div class="yy-w" id="loudong2">
+						<div class="scroller">
+							<ul class="clearfix" id="dsLouDong">
+								<!-- 填充模版 -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div   id="IsShowDY" >
+
+					<!-- 填充模版 -->
+
+				</div>
+			</div>
+			<div id="commonBody">
 				<div id="IsShowFangYuan">
 					<!-- 填充模版 -->		
 				</div>

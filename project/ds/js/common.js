@@ -147,7 +147,7 @@ function countTime() {
 			s = Math.floor(leftTime/1000%60); 
 			s1 = Math.floor(leftTime/1000);//转成秒
 			//登录
-			$("#ggts").html("本轮活动开始时间还剩余!");
+			$("#ggts").html("活动倒计时!");
 		    allowLoad = true;//允许登录
 			//房源
 			timeState="2";
@@ -192,7 +192,7 @@ function countTime() {
 		          m = Math.floor(leftTime/1000/60%60);  
 		          s = Math.floor(leftTime/1000%60); 
 				  //登录
-		          $("#ggts").html("本轮活动结束时间还剩余!");
+		          $("#ggts").html("活动倒计时!");
 				  allowLoad = true;//允许登录
 				  //房源
 				  $("#ggts2").html("秒后活动结束!");
@@ -356,25 +356,29 @@ function updateRoomState(objs){
 		}
  }  
 
- function imageSet(){
+ function imageSet() {
 	 //src="http://47.99.137.243:8080/UpLoad/fy/YHGS.jpg?v=1.0"
 	 $("#yhgsImg").attr("src",imageServer+"/UpLoad/"+imageFolder+"/yhgs.jpg?v="+staticVersion);
  }
  
- function lookFangYuan(){
+ function lookFangYuan() {
 	 window.location.replace("/dsCar/index.html#fangyuan");
  }
  
- function lookDingDan(){
+ function lookDingDan() {
 	 window.location.replace("/dsCar/index.html#dingdan");
  }
  
- function lookShouCang(){
+ function lookShouCang() {
 	 window.location.replace("/dsCar/index.html#shoucang");
  }
  
-function goBack(){
+function goBack() {
 	  localStorage.removeItem("whoareyou");
 	  localStorage.removeItem("openYhgs");
 	 window.location.replace("/dsCar/index.html#logout");
  }
+
+function alertSignature() {
+
+}
