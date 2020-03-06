@@ -17,12 +17,12 @@
 .login-button{margin-top:15px;}
 .index-button{position:fixed;width:100%;z-index:1002;height:46px;line-height:46px;left:0;bottom:0;right:0;}
 .index-button button{display:block;width:100%;height:46px;line-height:46px;text-align:center;color:#ffffff;font-size:1.8rem;background:rgb(216, 98, 57);border:0;}
-.login-button input{display:block;width:100%;height:46px;line-height:46px;text-align:center;color:#ffffff;font-size:1.8rem;background:#d86239;border:0;}
+.login-button input{display:block;width:100%;height:46px;line-height:46px;text-align:center;color:#ffffff;font-size:1.8rem;background:#d86239;border:0; border-radius: .5rem;}
 .liktimer{text-align:center;color:#fa4e2a}
-.liktimer .Remain{min-width:35px;height:35px;line-height:35px;background:#f5f4f4;color:rgb(175, 123, 1); text-align:center;border-radius:4px;display:inline-block;font-size:25px;}
+.liktimer .Remain{width:2.4rem;height:2.4rem;line-height:2.4rem;background:#f5f4f4;color:rgb(175, 123, 1); text-align:center;border-radius:4px;display:inline-block;font-size:1.8rem;}
 .liktimer .liksapn{color:rgb(175, 123, 1);font-size:16px;padding:0px 4px;}
-.time-djs{text-align:center;color:rgb(175, 123, 1)}
-.time-djs p{padding-top:20px;font-size:16px;padding-bottom:6px;}
+.time-djs{text-align:center;color:rgb(175, 123, 1); display: flex; justify-content: center; align-items: center;padding: .5rem 0;}
+.time-djs p{font-size:16px; margin-right: 2.5rem;}
 .index-img img{width:100%}
 .index-xm-w{border-bottom:1px solid #e9e8e9;padding:.6rem 1rem;background:#ffffff;}
 .index-xm-w .xm-w-left{float:left;font-size:1.5rem;line-height:26px;}
@@ -336,3 +336,69 @@
 .picradius {
     border-radius: 10px;
 }
+/* loginData.jsp start */
+.tips {
+    padding: .65rem 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.tips_title, .tips_time {
+    font-size: 2.1rem;
+    color: #333;
+    text-align: center;
+}
+.tips_start {
+    font-size: 1.6rem;
+    color: #ff6c00;
+    text-align: center;
+}
+.tips_attachment {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+.txt {
+    font-size: 1.2rem;
+    color: #003079;
+}
+.mb1r {
+    margin-bottom: 1rem;
+}
+.mb1_6r {
+    margin-bottom: 1.6rem;
+}
+.imgMask {
+    height: 80%;
+}
+.mask {
+    position: fixed;
+    background: rgba(3, 3, 3, .2);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.closeBtn {
+    position: absolute;
+    bottom: 1rem;
+    left: calc(50% - 2.5rem);
+    width: 5rem;
+    height: 5rem;
+    background: #fff;
+    display: none;
+    border-radius: 50%;
+    font-size: 3rem!important;
+    justify-content: center;
+    align-items: center;
+}
+.active {
+    display: flex;
+}
+/* loginData.jsp end */

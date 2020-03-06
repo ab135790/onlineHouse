@@ -103,6 +103,15 @@
 <style type="text/css">body{background:#ffffff;}</style>
 <div class="center">
 	<div class="b-index-w">
+		<div id="showDjsTime">
+			<!-- 					 <div class="time-djs" id="subtimer" style="display:none">
+	                                      <p id="ggts">本轮活动离结束时间剩余</p>
+	                                      <div class="liktimer">
+	                                           <span class="RemainD Remain">00</span><span class="liksapn">天</span><span class="RemainH Remain">00</span><span class="liksapn">时</span>
+	                                           <span class="RemainM Remain">00</span><span class="liksapn">分</span><span class="RemainS Remain">00</span><span class="liksapn">秒</span>
+	                                      </div>
+	                                  </div> -->
+		</div>
 		<div class="index-img"><img id="dltPic" style="width:100%"></div>
 		<div class="weui-cell" style="">
 			<div class="weui-cell__bd" style="line-height:30px;">
@@ -128,19 +137,20 @@
 			</div>
 
 			<!-- <div class="login-button"><input type="submit" value="登录" ></div> -->
-			<div class="login-button"><input type="button" value="登录" id="submit" onclick="onSubmit()"></div>
+			<div class="login-button mb1_6r"><input type="button" value="登录" id="submit" onclick="onSubmit()"></div>
 			<div class="tips">
-				<p>本次开盘时间</p>
-				<p>2020年3月30日9:00</p>
+				<p class="mb1r tips_title">本次开盘时间</p>
+				<p class="mb1r tips_time">2020年3月30日9:00-11:30</p>
+				<p class="mb1r tips_start">温馨提示：申购人在<span>9</span>点之前登陆</p>
+				<div class="tips_attachment">
+					<a href="javascript:void(0);" onclick="alertFile(1)" class="txt">《预售方案》</a>
+					<a href="javascript:void(0);" onclick="alertFile(2)" class="txt">《五证公式》</a>
+					<a href="javascript:void(0);" onclick="alertFile(3)" class="txt">《其他公式》</a>
+				</div>
 			</div>
-			<div id="showDjsTime">
-				<!-- 					 <div class="time-djs" id="subtimer" style="display:none">
-                                        <p id="ggts">本轮活动离结束时间剩余</p>
-                                        <div class="liktimer">
-                                             <span class="RemainD Remain">00</span><span class="liksapn">天</span><span class="RemainH Remain">00</span><span class="liksapn">时</span>
-                                             <span class="RemainM Remain">00</span><span class="liksapn">分</span><span class="RemainS Remain">00</span><span class="liksapn">秒</span>
-                                        </div>
-                                    </div> -->
+			<div class="mask" id="mask">
+				<div id="alertfile" class="imgMask"></div>
+				<i class="layer-icon layui-icon-close closeBtn" onclick="closeBtn()"></i>
 			</div>
 		</div>
 	</div>

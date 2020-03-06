@@ -131,7 +131,7 @@ function countTime() {
  		d = 0;  
  		h = 0; 
  		m = 0;
- 		s = 0;  		
+ 		s = 0;
 	 }else{
 		 var endDate = new Date(StartTime.replace(/\-/g, "/")); 
 	     var end = endDate.getTime();//项目开始时间  

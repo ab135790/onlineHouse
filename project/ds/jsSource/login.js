@@ -9,6 +9,36 @@ function showZsOrCs(){
 		$("#zsOrcs").css("background-color","#2196f3");//蓝色
 	}
 }
+/*2020/3/5
+* 作者：王青高
+* 功能：{Function} 弹出pdf协议文本
+* 参数：{}
+*/
+function alertFile(val) {
+	if($('#mask').hasClass('active')) {
+		return
+	} else {
+		$('#mask').addClass('active');
+		$('.closeBtn').addClass('active');
+		$('#alertfile').media({
+			width: '100%',
+			height: '100%',
+			autoplay: true,
+			src:'http://storage.xuetangx.com/public_assets/xuetangx/PDF/PlayerAPI_v1.0.6.pdf',
+		});
+	}
+}
+/*2020/3/5
+* 作者：王青高
+* 功能：{关闭pdf弹窗}
+* 参数：{}
+*/
+function closeBtn() {
+	if($('.closeBtn').hasClass('active')) {
+		$('.closeBtn').removeClass('active');
+		$('#mask').removeClass('active');
+	}
+}
 
 function showYzmOrSfz(){
 	 if(yzType==='0'){

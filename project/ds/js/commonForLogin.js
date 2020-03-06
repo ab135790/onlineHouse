@@ -114,8 +114,11 @@ function sysIni(data){
 }
 // 设置登录页banner图
 function loginIni(){
+	  // 设置公测或正式背景
 	  showZsOrCs();
+	  //
       showYzmOrSfz();
+      // 显示banner图
       $("#dltPic").attr("src",imageServer+"/UpLoad/"+imageFolder+"/loginimg.jpg?v="+staticVersion);
       whoareyou();
 }
@@ -217,7 +220,7 @@ function countTime() {
 		          m = Math.floor(leftTime/1000/60%60);  
 		          s = Math.floor(leftTime/1000%60); 
 				  //登录
-		          $("#ggts").html("本轮活动结束时间还剩余!");
+		          $("#ggts").html("活动倒计时!");
 				  allowLoad = true;//允许登录
 				  //房源
 				  $("#ggts2").html("秒后活动结束!");
