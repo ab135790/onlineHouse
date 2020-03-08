@@ -1,0 +1,18 @@
+
+
+.loginOut {
+	padding: 6px 10px;
+	border-radius: 5px;
+	display: block;
+	border: 1px solid #e7e7e7;
+	background: #fff;
+	color: #000;
+}
+
+.xm-peple {
+    display:flex;
+}
+ .layui-rgxz{
+	    width:100%;
+	    left:0;
+}
